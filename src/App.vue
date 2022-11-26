@@ -24,6 +24,7 @@ import { RouterLink, RouterView } from "vue-router";
   height: 50px;
   justify-content: center;
   align-items: center;
+  background-color: lightgray;
 }
 
 .menu {
