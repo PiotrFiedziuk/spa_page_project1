@@ -4,6 +4,7 @@ import { RouterLink, RouterView } from "vue-router";
 
 <template>
   <div class="menuWrapper">
+    <div>Logo</div>
     <nav class="menu">
       <RouterLink class="menuItem" to="/">Home</RouterLink>
       <RouterLink class="menuItem" to="/about">About</RouterLink>
