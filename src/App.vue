@@ -12,7 +12,7 @@ import { RouterLink, RouterView } from "vue-router";
       <RouterLink class="menuItem" to="/services">Services</RouterLink>
     </nav>
   </div>
-  <div>
+  <div class="content">
     <RouterView />
   </div>
 </template>
@@ -35,5 +35,8 @@ import { RouterLink, RouterView } from "vue-router";
 }
 .menuItem:hover {
   color: blue;
+}
+.content {
+  padding: 0 12px;
 }
 </style>
