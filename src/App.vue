@@ -5,11 +5,11 @@ import { RouterLink, RouterView } from "vue-router";
 <template>
   <div class="menuWrapper">
     <nav class="menu">
-      <RouterLink to="/">Home</RouterLink>
-      <RouterLink to="/about">About</RouterLink>
-      <RouterLink to="/contact">Contact</RouterLink>
-      <RouterLink to="/products">Products</RouterLink>
-      <RouterLink to="/services">Services</RouterLink>
+      <RouterLink class="menuItem" to="/">Home</RouterLink>
+      <RouterLink class="menuItem" to="/about">About</RouterLink>
+      <RouterLink class="menuItem" to="/contact">Contact</RouterLink>
+      <RouterLink class="menuItem" to="/products">Products</RouterLink>
+      <RouterLink class="menuItem" to="/services">Services</RouterLink>
     </nav>
   </div>
   <div>
@@ -27,8 +27,12 @@ import { RouterLink, RouterView } from "vue-router";
 }
 
 .menu {
+  width: 100%;
   display: flex;
   justify-content: space-evenly;
   gap: 8px;
+}
+.menuItem:hover {
+  color: blue;
 }
 </style>
