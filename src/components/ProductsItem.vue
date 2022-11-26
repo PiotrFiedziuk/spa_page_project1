@@ -1,11 +1,29 @@
 <template>
-  <div class="serviceList">
-    <h1 class="serviceItem">Product 1</h1>
-    <h1 class="serviceItem">Product 2</h1>
-    <h1 class="serviceItem">Product 3</h1>
-    <h1 class="serviceItem">Product 4</h1>
-    <h1 class="serviceItem">Product 5</h1>
-    <h1 class="serviceItem">Product 6</h1>
+  <div class="productsList">
+    <div class="productItem">
+      <h1>Product 1</h1>
+      <div>Description about product 1</div>
+    </div>
+    <div class="productItem">
+      <h1>Product 2</h1>
+      <div>Description about product 2</div>
+    </div>
+    <div class="productItem">
+      <h1>Product 3</h1>
+      <div>Description about product 3</div>
+    </div>
+    <div class="productItem">
+      <h1>Product 4</h1>
+      <div>Description about product 4</div>
+    </div>
+    <div class="productItem">
+      <h1>Product 5</h1>
+      <div>Description about product 5</div>
+    </div>
+    <div class="productItem">
+      <h1>Product 6</h1>
+      <div>Description about product 6</div>
+    </div>
   </div>
 </template>
 <script>
@@ -15,14 +33,14 @@ export default {
 </script>
 
 <style scoped>
-.serviceList {
+.productsList {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 
-.serviceItem {
+.productItem {
   color: #2c3e50;
 }
 </style>

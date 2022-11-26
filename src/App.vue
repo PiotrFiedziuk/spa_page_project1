@@ -20,21 +20,26 @@ import { RouterLink, RouterView } from "vue-router";
 <style scoped>
 .menuWrapper {
   width: 100%;
-  display: flex;
   height: 50px;
-  justify-content: center;
-  align-items: center;
-  background-color: lightgray;
+  display: flex;
+  background-color: lightslategray;
 }
 
 .menu {
-  width: 100%;
+  height: 100%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: flex-start;
   gap: 8px;
+}
+.menuItem {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
 }
 .menuItem:hover {
   color: blue;
+  background-color: lightgray;
 }
 .content {
   padding: 0 12px;
